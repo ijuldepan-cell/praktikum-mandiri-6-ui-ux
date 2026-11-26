@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>pratikum6 UI/UX Malik Afrizal</h1>
+    <script>
+        const name = "Malik Afrizal";
+        let umur = 20;
+        let nilai = 100;
+        let aktif = true;
+
+        console.log("name", name);
+        console.log("umur", umur);
+        console.log("nilai", nilai);
+        console.log("aktif", aktif);    
+        console.log("typenilai", typeof nilai);
+        
+        let nilaiTugas = 90;
+        let nilaiUts = 85;
+        let nilaiUas = 90;
+        let nilaiAkhir = (nilaiTugas * 0.30) + (nilaiUts * 0.30) + (nilaiUas * 0.40);
+        
+        console.log("nilai akhir", nilaiAkhir);
+        console.log("Lulus", nilaiAkhir >=70);
+
+        const nilai2 = 80;
+        let statuskelulusan;
+
+        if (nilaiAkhir >= 60){
+            statuskelulusan = "Lulus";
+        }else{
+            statuskelulusan = "Tidak Lulus";
+        }
+        console.log("Status Kelulusan:", statuskelulusan);
+    </script>
+</body>
+</html>
